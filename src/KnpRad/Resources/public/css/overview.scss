@@ -78,13 +78,13 @@
       @include sprite(108px, 274px, 266px, 244px); left:-220px; top:255px;
       z-index:2; }
     &.pipeline {
-      @include sprite(456px, 302px, 328px, 95px); left:125px; top:290px;
+      @include sprite(456px, 302px, 328px, 95px); left:145px; top:300px;
     }
     &.app-configs {
-      @include sprite(502px, 437px, 380px, 65px); left:175px; top:418px;
+      @include sprite(502px, 437px, 380px, 65px); left:195px; top:438px;
     }
     &.views {
-      @include sprite(530px, 534px, 310px, 116px); left:205px; top:515px;
+      @include sprite(530px, 534px, 310px, 116px); left:235px; top:538px;
     }
     &.structure {
       @include sprite(140px, 590px, 184px, 74px); left:-185px; top:572px;

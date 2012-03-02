@@ -17,12 +17,12 @@ $kernel-&gt;loadClassCache();
 $kernel-&gt;handle(Request::createFromGlobals())-&gt;send();</code></pre>
 
     <p>
-        <code>config/kernel.yml</code> is the main configuration file for your application.
+        <code>app/kernel.yml</code> is the main configuration file for your application.
         It defines all the bundles that your project requires, environment-dependant
         parameters and a project namespace.
     </p>
 
-    <pre><code># config/kernel.yml
+    <pre><code># app/kernel.yml
 project: KnpRad
 all:
     bundles:
@@ -73,12 +73,12 @@ test:
         </li>
     </ol>
     <p>
-        After loading <code>config/kernel.yml</code>, RadKernel will look for a <code>config/kernel.custom.yml</code>
+        After loading <code>app/kernel.yml</code>, RadKernel will look for a <code>app/kernel.custom.yml</code>
         file. You can use this file to redefine any parameters that are specific
         to your machine. This is quite literally the equivalent of <code>parameters.ini</code>
         and the file should be ignored in your version control system.
-        <code>config/kernel.yml</code>:
-        <pre><code># config/kernel.custom.yml
+        <code>app/kernel.yml</code>:
+        <pre><code># app/kernel.custom.yml
 all:
     parameters:
         locale: ru</code></pre>
